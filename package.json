@@ -1,0 +1,14 @@
+{
+  "name": "boxels",
+  "type": "module",
+  "scripts": {
+    "start": "vite --open",
+    "build": "tsc && vite build",
+    "driver": "tsc && node build/driver.js"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-checker": "^0.6.2"
+  }
+}
